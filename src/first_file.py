@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def hello():
+def hello() -> str:
     print(" not hello")
     return "hello"
 
