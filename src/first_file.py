@@ -1,8 +1,8 @@
 import pandas as pd
 
 
-def hello():
-    print(" not hello")
+def hello() -> str:
+    print(" nsot hello")
     return "hello"
 
 
