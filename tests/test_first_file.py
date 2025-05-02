@@ -1,4 +1,4 @@
-from src.first_file import hello
+from first_file import hello
 
 
 def test_hello():
