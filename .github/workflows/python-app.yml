@@ -30,8 +30,9 @@ jobs:
         pip install flake8 pytest
     - name: Lint
       run: |
+        ruff format --check
         ruff check
-        mypy
+        mypy random_example
 
   build:
 
